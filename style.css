@@ -1,24 +1,40 @@
 body {
     font-family: "Times New Roman", Times, serif;
+    font-weight: 100;
     color: #000;
     font-size: 11pt;
     background-color: #fefefe;
     margin: 0;
     padding: 2rem;
     line-height: 1.6;
+	
+}
+body a:link,
+body a:visited {
+    color: #000;           /* nero per link normali e visitati */
+    text-decoration: none; /* niente sottolineatura */
+}
+
+body a:hover {
+    color: #888;           /* grigio quando ci passi sopra */
+    text-decoration: none; /* niente sottolineatura anche in hover */
+}
+
+body a:active {
+    color: #000;           /* opzionale: resta nero mentre clicchi */
 }
 
 header {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 h1 {
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 11pt;
+    font-weight: normal;
 }
 
 h2 {
-    font-size: 1.2rem;
+    font-size: 11pt;
     margin-top: 1.5rem;
 }
 
@@ -33,6 +49,11 @@ ul {
 
 ul li {
     margin-bottom: 1rem;
+}
+
+p {
+    margin: 0;
+    padding: 0;
 }
 
 footer {
